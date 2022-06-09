@@ -1,0 +1,11 @@
+.container{
+    margin: 50px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    size:20px;
+}
+.margin{
+    margin: 20px 0;
+}
