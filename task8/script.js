@@ -31,7 +31,7 @@ const guessNumber = (min, max, atempt) => {
             newMax = number
             guessNumber(min, newMax, sum)
         } else {
-            console.log('Well done')
+            console.log(`Well done, you found the secret number in ${(50-atempt)} atempts` )
             return 
         }
     } else{
